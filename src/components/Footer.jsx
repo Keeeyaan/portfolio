@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-import { styles } from "../styles";
 import { navLinks, socmeds } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
