@@ -4,7 +4,7 @@ import { DarkModeSwitch } from "react-toggle-dark-mode";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { klogo, menu, close } from "../assets";
 
 const Navbar = ({ handleThemeSwitch, theme }) => {
   const [active, setActive] = useState("");
@@ -23,7 +23,7 @@ const Navbar = ({ handleThemeSwitch, theme }) => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={klogo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-lightsecondary dark:text-white text-[18px] font-bold cursor-pointer">
             Kean Villaflor
           </p>
