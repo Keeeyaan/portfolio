@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { DarkModeSwitch } from "react-toggle-dark-mode";
 
 import { styles } from "../styles";
-import { navLinks } from "../constants";
-import { klogo, menu, close } from "../assets";
+import { navLinks } from "../constants/index";
+import { klogo, menu, close } from "../assets/index";
 
 const Navbar = ({ handleThemeSwitch, theme }) => {
   const [active, setActive] = useState("");

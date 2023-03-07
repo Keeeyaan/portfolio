@@ -1,8 +1,8 @@
 import { BallCanvas } from "./canvas";
 import { motion } from "framer-motion";
 
-import { SectionWrapper } from "../hoc";
-import { technologies } from "../constants";
+import { SectionWrapper } from "../hoc/index";
+import { technologies } from "../constants/index";
 import { styles } from "../styles";
 import { textVariant, fadeIn } from "../utils/motion";
 

@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-import { navLinks, socmeds } from "../constants";
-import { SectionWrapper } from "../hoc";
+import { navLinks, socmeds } from "../constants/index";
+import { SectionWrapper } from "../hoc/index";
 import { slideIn } from "../utils/motion";
 
 const Footer = () => {
