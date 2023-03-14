@@ -1,4 +1,3 @@
-import { BallCanvas } from "./canvas";
 import { motion } from "framer-motion";
 
 import { SectionWrapper } from "../hoc/index";
@@ -27,12 +26,27 @@ const Tech = () => {
         </motion.p>
       </div>
 
-      <div className="mt-10 flex flex-row flex-wrap justify-center gap-10">
-        {technologies.map((technology) => (
-          <div className="w-28 h-28" key={technology.name}>
-            <BallCanvas icon={technology.icon} />
-          </div>
-        ))}
+      <div className="max-w-full mx-auto overflow-hidden flex justify-start">
+        <motion.div
+          className="mt-10 flex gap-10 items-center"
+          animate={{ x: -1560 }}
+          transition={{
+            duration: 20,
+            ease: "linear",
+            repeat: Infinity,
+          }}
+        >
+          {technologies.map((technology) => (
+            <div className="w-20 h-20" key={technology.name}>
+              <img className="w-full" src={technology.icon} />
+            </div>
+          ))}
+          {technologies.map((technology) => (
+            <div className="w-20 h-20" key={technology.name}>
+              <img className="w-full" src={technology.icon} />
+            </div>
+          ))}
+        </motion.div>
       </div>
     </>
   );
