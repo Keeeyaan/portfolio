@@ -21,6 +21,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import next from "./tech/next.png";
+import nextjs from "./tech/nextjs.svg";
 import mysql from "./tech/mysql.png";
 import express from "./tech/express.png";
 import python from "./tech/python.png";
@@ -62,6 +63,7 @@ export {
   tailwind,
   typescript,
   next,
+  nextjs,
   mysql,
   express,
   python,

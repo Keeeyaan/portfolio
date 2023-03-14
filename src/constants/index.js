@@ -16,6 +16,7 @@ import {
   figma,
   docker,
   next,
+  nextjs,
   mysql,
   express,
   python,
@@ -95,7 +96,7 @@ const technologies = [
   },
   {
     name: "NEXT JS",
-    icon: next,
+    icon: nextjs,
   },
   {
     name: "Redux Toolkit",
