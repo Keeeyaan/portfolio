@@ -12,7 +12,7 @@ module.exports = {
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
-        lightprimary: "#E2E8F0",
+        lightprimary: "#f9f7fe",
         lightsecondary: "#1E2932",
         lighttertiary: "#f5f3f8",
       },

@@ -31,7 +31,7 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-lightprimary dark:bg-primary">
+      <div className="relative z-0 bg-[#f9f7fe] dark:bg-primary">
         <div className="dark:bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar handleThemeSwitch={handleThemeSwitch} theme={theme} />
           <Hero />
