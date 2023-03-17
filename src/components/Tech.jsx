@@ -29,7 +29,7 @@ const Tech = () => {
       <div className="max-w-full mx-auto overflow-hidden flex justify-start">
         <motion.div
           className="mt-10 flex gap-10 items-center"
-          animate={{ x: -1560 }}
+          animate={{ x: -1920 }}
           transition={{
             duration: 20,
             ease: "linear",
