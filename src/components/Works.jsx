@@ -28,9 +28,9 @@ const ProjectCard = ({
             className="w-full h-full object-cover rounded-2xl"
           />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            {/* ADD A ONCLICK EVENT REDIRECTING TO PROJECT LINK */}
             <div className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
               <img
+                onClick={() => window.open(source_code_link, "_blank")}
                 src={github}
                 alt="github"
                 className="w-8 h-8 object-contain"
