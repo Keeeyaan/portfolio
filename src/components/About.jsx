@@ -49,9 +49,9 @@ const About = () => {
         className="mt-4 text-lightsecondary dark:text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         My journey in web development began with the classic "Hello World"
-        console output and add a grain of salt of curiosity, which ignited a
-        deep passion for pursuing this career. Since then, I have continually
-        strived to learn and get feedback to improve myself.
+        console output and a grain of salt of my curiosity, which ignited a deep
+        passion for pursuing this career. Since then, I have continually strived
+        to learn and get feedback to improve myself.
         <br />
         <br />
         As a dedicated and passionate Web Developer, I use cutting-edge
