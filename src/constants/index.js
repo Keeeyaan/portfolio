@@ -15,7 +15,6 @@ import {
   git,
   figma,
   docker,
-  next,
   nextjs,
   mysql,
   express,
@@ -28,11 +27,9 @@ import {
   instagram,
   github,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   pokedex,
+  chatty,
 } from "../assets";
 
 export const navLinks = [
@@ -122,18 +119,18 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  // {
-  //   name: "MySQL",
-  //   icon: mysql,
-  // },
-  // {
-  //   name: "git",
-  //   icon: git,
-  // },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
 ];
 
 const experiences = [
@@ -238,62 +235,45 @@ const projects = [
       },
     ],
     image: pokedex,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Keeeyaan/pokedex-react",
   },
-  // {
-  //   name: "Job IT",
-  //   description:
-  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "restapi",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "scss",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: jobit,
-  //   source_code_link: "https://github.com/",
-  // },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "Chatty",
+    description:
+      "A web application that allows users to join and create a room based on their interests and chat with them",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: chatty,
+    source_code_link: "https://github.com/Keeeyaan/realtime-chat",
+  },
 ];
 
 const socmeds = [
   {
     name: "GitHub",
     icon: github,
-    links: "/",
+    links: "https://github.com/Keeeyaan",
   },
   {
     name: "LinkedIn",
     icon: linkedin,
-    links: "/",
+    links: "https://www.linkedin.com/in/kean-jieden-villaflor-3a5970232/",
   },
   {
     name: "Instagram",
