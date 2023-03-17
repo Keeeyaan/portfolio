@@ -33,7 +33,6 @@ import {
   tripguide,
   threejs,
   pokedex,
-  chatty,
 } from "../assets";
 
 export const navLinks = [
@@ -123,18 +122,18 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "MySQL",
-    icon: mysql,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "MySQL",
+  //   icon: mysql,
+  // },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
 ];
 
 const experiences = [
@@ -239,33 +238,29 @@ const projects = [
       },
     ],
     image: pokedex,
-    source_code_link: "https://github.com/Keeeyaan/pokedex-react",
+    source_code_link: "https://github.com/",
   },
-  {
-    name: "Chatty",
-    description:
-      "A Web application that allows users to join and create a room based on their interests and chat with them.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "socket.io",
-        color: "green-text-gradient",
-      },
-      {
-        name: "expressjs",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-    ],
-    image: chatty,
-    source_code_link: "https://github.com/Keeeyaan/realtime-chat",
-  },
+  // {
+  //   name: "Job IT",
+  //   description:
+  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "restapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: jobit,
+  //   source_code_link: "https://github.com/",
+  // },
   // {
   //   name: "Trip Guide",
   //   description:
@@ -293,12 +288,12 @@ const socmeds = [
   {
     name: "GitHub",
     icon: github,
-    links: "https://github.com/Keeeyaan",
+    links: "/",
   },
   {
     name: "LinkedIn",
     icon: linkedin,
-    links: "https://www.linkedin.com/in/kean-jieden-villaflor-3a5970232/",
+    links: "/",
   },
   {
     name: "Instagram",
