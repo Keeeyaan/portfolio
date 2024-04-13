@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import { BackgroundGradient } from "../ui/background-gradient";
-import { tasky, pokedex, damath, psits } from "@/assets";
+import { tasky, pokedex, damath, psits, portfolio } from "@/assets";
 import { ExternalLink, Github } from "lucide-react";
 import { Button } from "../ui/button";
 import Link from "next/link";
@@ -34,6 +34,18 @@ const projects = [
     ],
     github: "https://github.com/PSITS-UC-MAIN/PSITS-WEB",
     live: "https://psits-web-site-v2.vercel.app/",
+  },
+  {
+    image: portfolio,
+    title: "Portfolio",
+    description: "My simple porfolio what you are seeing right now.",
+    tags: [
+      { name: "Next.js", color: "bg-slate-800" },
+      { name: "framer-motion", color: "bg-purple-500" },
+      { name: "Tailwindcss", color: "bg-cyan-500" },
+    ],
+    github: "https://github.com/Keeeyaan/portfolio",
+    live: "https://keanvillaflor.vercel.app/",
   },
   {
     image: pokedex,

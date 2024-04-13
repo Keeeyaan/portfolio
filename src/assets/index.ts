@@ -19,6 +19,7 @@ export { default as typescript } from "./tech/typescript.png";
 /* Project */
 export { default as tasky } from "./project/tasky.png";
 export { default as psits } from "./project/psits.png";
+export { default as portfolio } from "./project/portfolio.png";
 export { default as pokedex } from "./project/pokedex.png";
 export { default as damath } from "./project/damath.png";
 
