@@ -29,8 +29,8 @@ const AboutSection = () => {
             contribute to a challenging and collaborative environment.
           </p>
 
-          <div className="flex gap-4 items-center">
-            <Button size="sm" variant="ghost">
+          <div className="flex flex-wrap justify-center sm:justify-start gap-2 sm:gap-4 items-center">
+            <Button size="sm" variant="ghost" className="px-2">
               <MapPin />
               <span className="ml-2">Cebu, Philippines</span>
             </Button>
