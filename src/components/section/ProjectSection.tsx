@@ -70,7 +70,7 @@ const projects = [
       { name: "Tailwindcss", color: "bg-cyan-500" },
     ],
     github: "https://github.com/Keeeyaan/damath",
-    live: "https://tasky-web-site.vercel.app",
+    live: "https://damath.vercel.app/",
   },
 ];
 
