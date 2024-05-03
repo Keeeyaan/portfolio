@@ -14,13 +14,13 @@ const WaveBoundary = () => {
       "(prefers-color-scheme: dark)"
     ).matches;
 
-    if (localTheme === "system") {
+    if (localTheme === "system" || !localTheme) {
       setWaveTheme(isSystemPreferDark ? "dark" : "light");
       return;
     }
 
     setWaveTheme(localTheme);
-  }, [setWaveTheme]);
+  }, [setWaveTheme, theme]);
 
   return (
     <Wave

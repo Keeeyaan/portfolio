@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FloatingName } from "../FloatingName";
 import Socials from "../Socials";
 import { MovingBorderButton } from "../ui/moving-border";
@@ -19,7 +20,9 @@ const HeroSection = () => {
           <p>Download CV</p>
         </MovingBorderButton>
         <MovingBorderButton borderRadius="0.5rem" className="p-3 font-semibold">
-          <p>Contact Me</p>
+          <Link href="#contact">
+            <p>Contact Me</p>
+          </Link>
         </MovingBorderButton>
       </div>
 
