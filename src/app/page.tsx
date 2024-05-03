@@ -3,6 +3,7 @@ import HeroSection from "@/components/section/HeroSection";
 import TechSection from "@/components/section/TechSection";
 import AboutSection from "@/components/section/AboutSection";
 import ProjectSection from "@/components/section/ProjectSection";
+import ContactSection from "@/components/section/ContactSection";
 import Footer from "@/components/Footer";
 
 import WaveBoundary from "@/components/WaveBoundary";
@@ -21,6 +22,7 @@ export default function Home() {
         <TechSection />
         <AboutSection />
         <ProjectSection />
+        <ContactSection />
         <Footer />
       </div>
     </main>
