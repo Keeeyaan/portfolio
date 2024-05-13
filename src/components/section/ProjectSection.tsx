@@ -1,7 +1,14 @@
 import Image from "next/image";
 
 import { BackgroundGradient } from "../ui/background-gradient";
-import { tasky, pokedex, damath, psits, portfolio } from "@/assets";
+import {
+  tasky,
+  pokedex,
+  damath,
+  psits,
+  portfolio,
+  ucnianguidebot,
+} from "@/assets";
 import { ExternalLink, Github } from "lucide-react";
 import { Button } from "../ui/button";
 import Link from "next/link";
@@ -25,7 +32,7 @@ const projects = [
     image: psits,
     title: "PSITS Student Portal",
     description:
-      "PSITS is a student portal for University of Cebu Main Campus CSS organization.",
+      "A student portal for the IT organization of the CCS Department at the University of Cebu - Main Campus.",
     tags: [
       { name: "React.js", color: "bg-sky-500" },
       { name: "Node.js", color: "bg-green-500" },
@@ -34,6 +41,20 @@ const projects = [
     ],
     github: "https://github.com/PSITS-UC-MAIN/PSITS-WEB",
     live: "https://psits-web-site-v2.vercel.app/",
+  },
+  {
+    image: ucnianguidebot,
+    title: "UCnian Guide Bot",
+    description:
+      "UCnian Guide Bot is a chatbot built to answer students inquiries.",
+    tags: [
+      { name: "React.js", color: "bg-sky-500" },
+      { name: "Node.js", color: "bg-green-500" },
+      { name: "MongoDB", color: "bg-green-600" },
+      { name: "Express", color: "bg-lime-500" },
+    ],
+    github: "https://github.com/Keeeyaan/SIA",
+    live: "https://github.com/Keeeyaan/SIA",
   },
   {
     image: portfolio,
@@ -48,19 +69,6 @@ const projects = [
     live: "https://keanvillaflor.vercel.app/",
   },
   {
-    image: pokedex,
-    title: "Pokedex",
-    description:
-      "A platform that allows you to search pokemons and view their information.",
-    tags: [
-      { name: "React.js", color: "bg-sky-500" },
-      { name: "PokeAPI", color: "bg-yellow-500" },
-      { name: "framer-motion", color: "bg-purple-500" },
-    ],
-    github: "https://github.com/Keeeyaan/pokedex-react",
-    live: "https://pokedex-react-ky.netlify.app/",
-  },
-  {
     image: damath,
     title: "DaMath",
     description:
@@ -71,6 +79,19 @@ const projects = [
     ],
     github: "https://github.com/Keeeyaan/damath",
     live: "https://damath.vercel.app/",
+  },
+  {
+    image: pokedex,
+    title: "Pokedex",
+    description:
+      "A web application that allows you to search pokemons and view their information.",
+    tags: [
+      { name: "React.js", color: "bg-sky-500" },
+      { name: "PokeAPI", color: "bg-yellow-500" },
+      { name: "framer-motion", color: "bg-purple-500" },
+    ],
+    github: "https://github.com/Keeeyaan/pokedex-react",
+    live: "https://pokedex-react-ky.netlify.app/",
   },
 ];
 
