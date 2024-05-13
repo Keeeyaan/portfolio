@@ -15,10 +15,12 @@ export { default as reactjs } from "./tech/reactjs.png";
 export { default as redux } from "./tech/redux.png";
 export { default as tailwind } from "./tech/tailwind.png";
 export { default as typescript } from "./tech/typescript.png";
+export { default as fastapi } from "./tech/fastapi.svg";
 
 /* Project */
 export { default as tasky } from "./project/tasky.png";
 export { default as psits } from "./project/psits.png";
+export { default as ucnianguidebot } from "./project/ucnianguidebot.png";
 export { default as portfolio } from "./project/portfolio.png";
 export { default as pokedex } from "./project/pokedex.png";
 export { default as damath } from "./project/damath.png";
