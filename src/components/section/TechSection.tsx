@@ -4,6 +4,7 @@ import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
 import {
   css,
   express,
+  fastapi,
   figma,
   git,
   html,
@@ -79,6 +80,10 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
+  },
+  {
+    name: "FastAPI",
+    icon: fastapi,
   },
 ];
 
