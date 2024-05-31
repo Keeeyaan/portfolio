@@ -17,7 +17,9 @@ const HeroSection = () => {
       <Socials className="mt-4" />
       <div className="flex justify-center items-center gap-4 mt-6">
         <MovingBorderButton borderRadius="0.5rem" className="p-3 font-semibold">
-          <p>Download CV</p>
+          <a href="./resume.pdf" download="cv">
+            Download CV
+          </a>
         </MovingBorderButton>
         <MovingBorderButton borderRadius="0.5rem" className="p-3 font-semibold">
           <Link href="#contact">
