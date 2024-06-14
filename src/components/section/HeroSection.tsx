@@ -18,7 +18,7 @@ const HeroSection = () => {
       <div className="flex justify-center items-center gap-4 mt-6">
         <MovingBorderButton borderRadius="0.5rem" className="p-3 font-semibold">
           <a href="./resume.pdf" download="cv">
-            Download CV
+            Download Resume
           </a>
         </MovingBorderButton>
         <MovingBorderButton borderRadius="0.5rem" className="p-3 font-semibold">
